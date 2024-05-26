@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/csrf-attack
+    username: user
+    password: password
+  application:
+    name: csrf-attack
+  jpa:
+    hibernate:
+      ddl-auto: update
+logging:
+  level:
+    root: info
